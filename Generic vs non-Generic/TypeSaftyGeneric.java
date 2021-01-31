@@ -9,7 +9,7 @@ public class TypeSaftyGeneric {
          al.add("Rahul"); 
    
          // Now Compiler doesn't allow this 
-         al.add(10); 
+        // al.add(10); 
    
          String s1 = al.get(0); 
          String s2 = al.get(1); 
