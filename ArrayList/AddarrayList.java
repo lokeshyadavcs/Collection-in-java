@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.List;
+
 
 /**
  * AddarrayList
@@ -7,7 +7,7 @@ import java.util.List;
 public class AddarrayList {
 
     public static void main(String[] args) {
-        List <String> list = new ArrayList<>();
+        ArrayList <String> list = new ArrayList<>();
         list.add("ram");
         list.add("baam");
         list.add("bhuvan baam");
