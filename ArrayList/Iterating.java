@@ -9,7 +9,7 @@ public class Iterating {
   list.add("Banana");    
   list.add("Grapes");    
   //Traversing list through Iterator  
-  Iterator itr=list.iterator();//getting the Iterator  
+  Iterator <String> itr=list.iterator();//getting the Iterator  
   while(itr.hasNext()){//check if iterator has the elements  
    System.out.println(itr.next());//printing the element and move to next  
   }
